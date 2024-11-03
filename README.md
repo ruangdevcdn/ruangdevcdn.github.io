@@ -30,26 +30,29 @@ Untuk menggunakan Javascript dari Ruang Dev CDN, Anda bisa menambahkan kode beri
 <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn/js/inputmask/jquery.inputmask.min.js" integrity="sha512-jTgBq4+dMYh73dquskmUFEgMY5mptcbqSw2rmhOZZSJjZbD2wMt0H5nhqWtleVkyBEjmzid5nyERPSNBafG4GQ==" crossorigin="anonymous"></script>
 ```
 ---
+Untuk menggunakan Javascript dari Ruang Dev CDN, Anda bisa menambahkan kode berikut di dalam tag `<head>`:
 ---
 ### Select2
 - **CDN CSS**
 ```shell
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn/css/select2/select2.min.css" integrity="sha512-aD9ophpFQ61nFZP6hXYu4Q/b/USW7rpLCQLX6Bi0WJHXNO7Js/fUENpBQf/+P4NtpzNX0jSgR5zVvPOJp+W2Kg==" crossorigin="anonymous">
 ```
+Untuk menggunakan Javascript dari Ruang Dev CDN, Anda bisa menambahkan kode berikut di dalam tag `<head>`:
 - **CDN Javascript**
 ```shell
 <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn/js/select2/select2.min.js" integrity="sha512-4MvcHwcbqXKUHB6Lx3Zb5CEAVoE9u84qN+ZSMM6s7z8IeJriExrV3ND5zRze9mxNlABJ6k864P/Vl8m0Sd3DtQ==" crossorigin="anonymous"></script>
 ```
 ---
+Untuk menggunakan Javascript dari Ruang Dev CDN, Anda bisa menambahkan kode berikut di dalam tag `<head>`:
 ---
 ### Sweetalert2
 - **CDN CSS**
 ```shell
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn/css/sweetalert2/sweetalert2.min.css" integrity="sha512-Xxs33QtURTKyRJi+DQ7EKwWzxpDlLSqjC7VYwbdWW9zdhrewgsHoim8DclqjqMlsMeiqgAi51+zuamxdEP2v1Q==" crossorigin="anonymous">
 ```
+Untuk menggunakan Javascript dari Ruang Dev CDN, Anda bisa menambahkan kode berikut di dalam tag `<head>`:
 - **CDN Javascript**
 ```shell
 <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn/js/sweetalert2/sweetalert2.js" integrity="sha512-tWKcNRzXNTybB8ca0NSEyHlUl1mXPL/2xFjiUkUBGmJTRnAstcmyXtmv81vEennKVkH/FDDIH5l2+Jo0p1FObg==" crossorigin="anonymous"></script>
 ```
----
 ---
