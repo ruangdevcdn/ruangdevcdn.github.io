@@ -1,4 +1,3 @@
-Berikut perbaikan yang lebih rapi dan konsisten untuk dokumentasi Anda:
 
 ---
 
