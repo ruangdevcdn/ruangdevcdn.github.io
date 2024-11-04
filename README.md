@@ -38,6 +38,7 @@ Gunakan CDN untuk:
     - [Fontawesome5](#fontawesome5)
     - [Datatables](#datatables)
     - [Datepicker](#datepicker)
+    - [Previewimage](#previewimage)
 
 ---
 ### Panduan Integrasi CDN dalam Proyek
@@ -202,5 +203,11 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```
 
 ---
+#### Previewimage
+- **CDN JavaScript**
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/js/previewimage/img.preview.js" integrity="sha512-v4yg0eAx7DcsPFGDPc2LxS0EIriB4v6QWPMDTRlKhxBvnYAbmuRMhTr9PrcsdaxvbtRA3J3XLRCuDiZZagdbTg==" crossorigin="anonymous"></script>
+  ```
 
+---
 Dengan menggunakan link CDN ini, proyek Anda akan memperoleh akses cepat ke file-file statis yang dibutuhkan tanpa harus bergantung sepenuhnya pada server utama Ruang Dev Indonesia.
