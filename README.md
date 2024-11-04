@@ -29,6 +29,7 @@ Gunakan CDN untuk:
   - [Kapan Menggunakan CDN?](#kapan-menggunakan-cdn)
   - [Manfaat Menggunakan CDN](#manfaat-menggunakan-cdn)
   - [Panduan Integrasi CDN dalam Proyek](#panduan-integrasi-cdn-dalam-proyek)
+    - [Jquery Min](#jquery-min)
     - [Starterkit Login](#starterkit-login)
     - [Starterkit Dashboard](#starterkit-dashboard)
     - [Inputmask](#inputmask)
@@ -36,12 +37,13 @@ Gunakan CDN untuk:
     - [Sweetalert2](#sweetalert2)
     - [Fontawesome5](#fontawesome5)
     - [Datatables](#datatables)
+    - [Datepicker](#datepicker)
 
 ---
 ### Panduan Integrasi CDN dalam Proyek
 Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode berikut ke dalam tag `<head>` pada halaman web Anda.
 
-#### JQuery Min
+#### Jquery Min
 - **CDN JavaScript**
   ```html
   <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/datatables/js/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
