@@ -29,7 +29,7 @@ Gunakan CDN untuk:
   - [Kapan Menggunakan CDN?](#kapan-menggunakan-cdn)
   - [Manfaat Menggunakan CDN](#manfaat-menggunakan-cdn)
   - [Panduan Integrasi CDN dalam Proyek](#panduan-integrasi-cdn-dalam-proyek)
-    - [Starterkit](#starterkit)
+    - [Starterkit Login](#starterkit-login)
     - [Inputmask](#inputmask)
     - [Select2](#select2)
     - [Sweetalert2](#sweetalert2)
@@ -39,7 +39,7 @@ Gunakan CDN untuk:
 ### Panduan Integrasi CDN dalam Proyek
 Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode berikut ke dalam tag `<head>` pada halaman web Anda.
 
-#### Starterkit
+#### Starterkit Login
 - **CDN CSS**
   ```html
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/css/boxicons.css" integrity="sha512-dMNYt8oyGcGMYootKGiAdkrDyYgyWNGgTRtU7nmwebJOek7suG5gt2HxxAAD72nEqVf8vPVsBfVUUPslRIna2A==" crossorigin="anonymous">
@@ -61,9 +61,32 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```
 - **CDN JavaScript**
   ```html
-  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/js/fontawesome5/font-awesome5-all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/bootstrap.js" integrity="sha512-58Skp5/Lc9Va7aGH+XP5R+Qm4Yt8qI7kURnSsf2fgSTKhonm30qBb4VkZgfxuE2YVgtOK/16b+hLiGbG8/UWlQ==" crossorigin="anonymous"></script>
   ```
-
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/captcha.js" integrity="sha512-MvssGXK93T69xsmRFlw+Zrq2f5sbV+3u19+JWWMlUh8r4qTgCw7n/IeU6VxWf93P9cyNJJ9CgRPMJlIkSt3odQ==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/config.js" integrity="sha512-8V7NXvBBbl1Ry3wSibDR65p/HfaHuu1ZsQ+9Z6fl1UshAdo65dFIPJakOWYA7NCExLA1PluSvi5oEmNE/AyA+A==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/jquery.js" integrity="sha512-89uTEAAU9s+AG9aSjIDwlNDbSSymNSmsaO8bm08gZjZgo/Kq9HjsvGZGICnjNGooW2/9RVfd2Tvn59L3A9vhOw==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/main.js" integrity="sha512-U98ojlsH4ICl8hdwi/F7XsTW0ugRMZNCGkyI+h9rYCbq2Dt9jDESjVhMWbKspcB8GIzF2zcSxSDu2t7rsff0Dw==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/menu.js" integrity="sha512-0p64shxcXiIUhcuutdNTXzGl3f2tfW/Hh5GzKdXvNa+ld4GKf/YcAaSw3SpiCdpRYwMYt+9Mra7CWHK22jPSkg==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/password.js" integrity="sha512-G7zXQdyJ2a3/xfUAc2hDs4Bu6jJwX3HKe5/+RUO72tQaTA6DNYRMxeAHjh9u8V1Ht69H2LkuD0j6lyR+I+vYyQ==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/perfect-scrollbar.js" integrity="sha512-1G7EgZJK+gzxZghsEH/0MhkzHjbivPQWQjlNlQr6yg3MHruSAv3NUqgq08iXvMUTUaIqjsmeXNWXoM9qOYcICQ==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/js/popper.js" integrity="sha512-YlaDiPEzSotPTerG8gJwnEkN44q4y2YgUvPj1+8w5kRIzr4IE5C4DoWE7IdLsMa0X8kNUoJjo+BwEooCOrHXWQ==" crossorigin="anonymous"></script>
+  ```
 ---
 
 #### Inputmask
