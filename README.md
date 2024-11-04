@@ -30,7 +30,7 @@ Gunakan CDN untuk:
   - [Manfaat Menggunakan CDN](#manfaat-menggunakan-cdn)
   - [Panduan Integrasi CDN dalam Proyek](#panduan-integrasi-cdn-dalam-proyek)
     - [Starterkit Login](#starterkit-login)
-    - [Starterkit Dasnoard](#starterkit-dasnoard)
+    - [Starterkit Dashboard](#starterkit-dashboard)
     - [Inputmask](#inputmask)
     - [Select2](#select2)
     - [Sweetalert2](#sweetalert2)
@@ -90,7 +90,7 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```
 ---
 
-#### Starterkit Dasnoard
+#### Starterkit Dashboard
 - **CDN CSS**
   ```html
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/css/app-dark.css" integrity="sha512-BRNEkrBpsrKyIreKg/2pVeWgRy/8UmLWcLEVJ8IzlF4J++xljjERdRtbv73mCq8rGpouJQGl7/f6ActRVbTi+Q==" crossorigin="anonymous">
@@ -121,7 +121,7 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   Example:
   ```php
   $(document).ready(function(){
-    $('#school_contact').inputmask("[9]9[9]999999[9][9]", {
+    $('#contact').inputmask("[9]9[9]999999[9][9]", {
           placeholder: "_________",
           insertMode: false,
           showMaskOnHover: false,
