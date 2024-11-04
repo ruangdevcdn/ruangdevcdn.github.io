@@ -185,10 +185,18 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```
 - **CDN JavaScript**
   ```html
-  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/datatables/js/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-  ```
-  ```html
   <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/datatables/js/datatables.min.js" integrity="sha512-4qmoJLDdNz51vzA75oiktlu1NkJgOJKkDDCrSyg3joGHi8W0YR6jqlivtTwql84y7Q0wjbQtZMe2obI7pQ+vjQ==" crossorigin="anonymous"></script>
+  ```
+
+---
+#### Datepicker
+- **CDN CSS**
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/datepicker/css/datepicker.css" integrity="sha512-n/98Hzv7vnNVN8bL5s+hajql1X8LVhS/kPJIMxpXinGzcIVcM+SKTG54IKnRVz8vPIJmWWtyRyP3p4aK3vLiZw==" crossorigin="anonymous">
+  ```
+- **CDN JavaScript**
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/datepicker/js/datepicker.js" integrity="sha512-zTadvlTFbfS8sBJpRcCpwz5NobiDyGe3Tm39xRlDjHCitm1gKu0ciMq24Zl+BGX2oLqtK5sfKUprFNdRHVgWNA==" crossorigin="anonymous"></script>
   ```
 
 ---
