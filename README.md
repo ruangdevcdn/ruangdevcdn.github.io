@@ -29,6 +29,7 @@ Gunakan CDN untuk:
   - [Kapan Menggunakan CDN?](#kapan-menggunakan-cdn)
   - [Manfaat Menggunakan CDN](#manfaat-menggunakan-cdn)
   - [Panduan Integrasi CDN dalam Proyek](#panduan-integrasi-cdn-dalam-proyek)
+    - [Starterkit](#starterkit)
     - [Inputmask](#inputmask)
     - [Select2](#select2)
     - [Sweetalert2](#sweetalert2)
@@ -37,6 +38,33 @@ Gunakan CDN untuk:
 ---
 ### Panduan Integrasi CDN dalam Proyek
 Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode berikut ke dalam tag `<head>` pada halaman web Anda.
+
+#### Starterkit
+- **CDN CSS**
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/css/boxicons.css" integrity="sha512-dMNYt8oyGcGMYootKGiAdkrDyYgyWNGgTRtU7nmwebJOek7suG5gt2HxxAAD72nEqVf8vPVsBfVUUPslRIna2A==" crossorigin="anonymous">
+  ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/css/core.css" integrity="sha512-pnYsRB7mKLuwgeRjM6d27ImCoFfcmO0VuXC9JW3gxWTwaYWy4uqYqEbqUZD5HFAaUks/qMMcDjNKLbGFU01X+g==" crossorigin="anonymous">
+  ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/css/demo.css" integrity="sha512-jR/omOlI/7L6vHxzVV9fJiHYheixqNwDxH777Qxq9fD34UC8yn21E5P0CrIeAjAxMPQ3jNFrr07GdKH8Keq8QA==" crossorigin="anonymous">
+  ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/css/page_login.css" integrity="sha512-h39A68ukqSYSQQmhjQrmSKNfWDirJOdTYGkR5UyxopJ7w7d4QZ9P8j5jfUAxClfWcpHs88cELWYWxOZrkTvrfQ==" crossorigin="anonymous">
+  ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/css/perfect-scrollbar.css" integrity="sha512-1f/eQrQ/g+/r86r3S0s///7uEUyKzP1vrwOJh1P+ncqZzEiYCVsedkr7Q2gFybD90NPG2Gvl7H1hvWMBsF6rAw==" crossorigin="anonymous">
+  ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/login/css/theme-default.css" integrity="sha512-B5NVktYE2EFdcAxg8H7jyIxKQMzNHk7BP0iUy86wPF3Tb/jw9C4iTEpdtGmj0lFxCAjs1+dDEM1pgdSE34beKw==" crossorigin="anonymous">
+  ```
+- **CDN JavaScript**
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/js/fontawesome5/font-awesome5-all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous"></script>
+  ```
+
+---
 
 #### Inputmask
 - **CDN JavaScript**
