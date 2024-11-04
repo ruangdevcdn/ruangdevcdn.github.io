@@ -22,7 +22,19 @@ Gunakan CDN untuk:
 - **Skalabilitas:** Mampu menangani lonjakan lalu lintas dengan lebih efisien.
 
 ---
+## 📄 **Daftar Isi**
 
+- [Proyek-Proyek oleh Ruang Dev Indonesia](#proyek-proyek-oleh-ruang-dev-indonesia)
+  - [Pendahuluan](#pendahuluan)
+  - [Kapan Menggunakan CDN?](#kapan-menggunakan-cdn)
+  - [Manfaat Menggunakan CDN](#manfaat-menggunakan-cdn)
+  - [Panduan Integrasi CDN dalam Proyek](#panduan-integrasi-cdn-dalam-proyek)
+    - [Inputmask](#inputmask)
+    - [Select2](#select2)
+    - [Sweetalert2](#sweetalert2)
+    - [Fontawesome5](#fontawesome5)
+
+---
 ### Panduan Integrasi CDN dalam Proyek
 Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode berikut ke dalam tag `<head>` pada halaman web Anda.
 
