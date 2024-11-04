@@ -30,6 +30,7 @@ Gunakan CDN untuk:
   - [Manfaat Menggunakan CDN](#manfaat-menggunakan-cdn)
   - [Panduan Integrasi CDN dalam Proyek](#panduan-integrasi-cdn-dalam-proyek)
     - [Starterkit Login](#starterkit-login)
+    - [Starterkit Dasnoard](#starterkit-dasnoard)
     - [Inputmask](#inputmask)
     - [Select2](#select2)
     - [Sweetalert2](#sweetalert2)
@@ -89,10 +90,43 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```
 ---
 
+#### Starterkit Dasnoard
+- **CDN CSS**
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/css/app-dark.css" integrity="sha512-BRNEkrBpsrKyIreKg/2pVeWgRy/8UmLWcLEVJ8IzlF4J++xljjERdRtbv73mCq8rGpouJQGl7/f6ActRVbTi+Q==" crossorigin="anonymous">
+  ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/css/app.css" integrity="sha512-tDo30oUmCj9tnLTo4pOh7G5nwADM0jnv2EFKRxUZzwnOUagtpYiXD5UCd9Pmr8dEMgZdb7bbeZps7JWNrvMlCA==" crossorigin="anonymous">
+  ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/css/toastify.css" integrity="sha512-tA+z1mt8+hiZE9CgG95WPtakY4JPkTaYgIcM1Wyq/VCdKDttHhnJoIDRC9/eWo8mbK2MmIDcDeUBfIfI1J8nWA==" crossorigin="anonymous">
+  ```
+- **CDN JavaScript**
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/app.js" integrity="sha512-Yc/Abj16qIEm1T+95RzrYX0zECoUQAatWcK2Hw+OGQ4UAymq4LPDclNrg7JeIrIggzjTT6ZASjF5Ttd20H2tBw==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/bootstrap.js" integrity="sha512-GTXxDPa3h1BC/V1Xn/dkn8wBsmR9xz8l83o3UxutVGFwr+MnPXxv4ZIuw+oCaEAW/W1SzcKzkm6oxzYdaC7axQ==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/toastify.js" integrity="sha512-ZHzbWDQKpcZxIT9l5KhcnwQTidZFzwK/c7gpUUsFvGjEsxPusdUCyFxjjpc7e/Wj7vLhfMujNx7COwOmzbn+2w==" crossorigin="anonymous"></script>
+  ```
+---
+
 #### Inputmask
 - **CDN JavaScript**
   ```html
   <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/js/inputmask/jquery.inputmask.min.js" integrity="sha512-jTgBq4+dMYh73dquskmUFEgMY5mptcbqSw2rmhOZZSJjZbD2wMt0H5nhqWtleVkyBEjmzid5nyERPSNBafG4GQ==" crossorigin="anonymous"></script>
+  ```
+  Example:
+  ```php
+  $(document).ready(function(){
+    $('#school_contact').inputmask("[9]9[9]999999[9][9]", {
+          placeholder: "_________",
+          insertMode: false,
+          showMaskOnHover: false,
+      });
+  });
   ```
 
 ---
