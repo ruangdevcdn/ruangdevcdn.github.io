@@ -58,4 +58,16 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
 
 ---
 
+#### Fontawesome5
+- **CDN CSS**
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn/css/fontawesome/font-awesome5-all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous">
+  ```
+- **CDN JavaScript**
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn/js/fontawesome5/font-awesome5-all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous"></script>
+  ```
+
+---
+
 Dengan menggunakan link CDN ini, proyek Anda akan memperoleh akses cepat ke file-file statis yang dibutuhkan tanpa harus bergantung sepenuhnya pada server utama Ruang Dev Indonesia.
