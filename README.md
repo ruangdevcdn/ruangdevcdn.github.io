@@ -234,4 +234,4 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```
 
 ---
-Dengan menggunakan [link CDN ini](https://www.jsdelivr.com/package/gh/ruangdev/cdn), <a href="https://www.jsdelivr.com/package/gh/ruangdev/cdn" target="_blank">link CDN ini</a>, proyek Anda akan memperoleh akses cepat ke file-file statis yang dibutuhkan tanpa harus bergantung sepenuhnya pada server utama Ruang Dev Indonesia.
+Dengan menggunakan <a href="https://www.jsdelivr.com/package/gh/ruangdev/cdn" target="_blank">link CDN ini</a>, proyek Anda akan memperoleh akses cepat ke file-file statis yang dibutuhkan tanpa harus bergantung sepenuhnya pada server utama Ruang Dev Indonesia.
