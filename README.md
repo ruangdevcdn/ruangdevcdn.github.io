@@ -106,6 +106,9 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```html
   <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/auth/js/password-confirm.js" integrity="sha512-lpg6hEJ205OqyYqymCngnYz7VO2B4LgNdgrOTak+dSiS84C2J1vyYh1AQGiEJkeRDlA2CtDCHxfzAvu4aatPHg==" crossorigin="anonymous"></script>
   ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/auth/js/error.css" integrity="sha512-tSMu9/Nw5petw4epygAILFv4b9CuUwCzvTAZmEqrigs/w94gaMJORa3g3vKbqxsRD7YIoP9HZnCv6rfLeNXIlA==" crossorigin="anonymous">
+  ```
 ---
 
 #### Starterkit Dashboard
