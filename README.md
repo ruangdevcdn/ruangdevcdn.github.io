@@ -122,6 +122,12 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```html
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/css/toastify.css" integrity="sha512-tA+z1mt8+hiZE9CgG95WPtakY4JPkTaYgIcM1Wyq/VCdKDttHhnJoIDRC9/eWo8mbK2MmIDcDeUBfIfI1J8nWA==" crossorigin="anonymous">
   ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/choices.js" integrity="sha512-McxoNDBJYOFe4JFCQuUuccQGic/xTQ+xPxS28tgJQbJbjZaffaJPiTSqucG6JZ96dMMTBQXeoAbpEv7Xd6AhCw==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/showpassword.js" integrity="sha512-s07o5REwpYHaR3sXgRQ8ukoiA2VzXsfDixf8cL+1Lj0htcAOnFrEuzQMzDgPW1apkVeuoL+aItLMlK03bDv6mQ==" crossorigin="anonymous"></script>
+  ```
 - **CDN JavaScript**
   ```html
   <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/app.js" integrity="sha512-Yc/Abj16qIEm1T+95RzrYX0zECoUQAatWcK2Hw+OGQ4UAymq4LPDclNrg7JeIrIggzjTT6ZASjF5Ttd20H2tBw==" crossorigin="anonymous"></script>
@@ -131,6 +137,9 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```
   ```html
   <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/toastify.js" integrity="sha512-ZHzbWDQKpcZxIT9l5KhcnwQTidZFzwK/c7gpUUsFvGjEsxPusdUCyFxjjpc7e/Wj7vLhfMujNx7COwOmzbn+2w==" crossorigin="anonymous"></script>
+  ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/css/choices.css" integrity="sha512-YnbHRWZoSH9PCoOc5bKcCX5yyHA0IjXZvFV0N26hBeKWK3vaqwjAwGiDbwM9hZne6tfTRUMuagPDoaQN87L2pA==" crossorigin="anonymous">
   ```
 ---
 
