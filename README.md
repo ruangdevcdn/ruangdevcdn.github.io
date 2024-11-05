@@ -128,6 +128,9 @@ Untuk menggunakan file JavaScript dan CSS dari Ruang Dev CDN, tambahkan kode ber
   ```html
   <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/showpassword.js" integrity="sha512-s07o5REwpYHaR3sXgRQ8ukoiA2VzXsfDixf8cL+1Lj0htcAOnFrEuzQMzDgPW1apkVeuoL+aItLMlK03bDv6mQ==" crossorigin="anonymous"></script>
   ```
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/css/module.css" integrity="sha512-R3+tafkUdu9OeKtUH2tFP5Lc2dvMqUG4PkgtSHfxih7KpASMZumBmOtgeDcys1svGJQ5/2OjS1Pp6JOBzoYcNg==" crossorigin="anonymous">
+  ```
 - **CDN JavaScript**
   ```html
   <script src="https://cdn.jsdelivr.net/gh/ruangdev/cdn@idn/starterkit/dashboard/js/app.js" integrity="sha512-Yc/Abj16qIEm1T+95RzrYX0zECoUQAatWcK2Hw+OGQ4UAymq4LPDclNrg7JeIrIggzjTT6ZASjF5Ttd20H2tBw==" crossorigin="anonymous"></script>
